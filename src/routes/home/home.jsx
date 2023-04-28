@@ -1,5 +1,4 @@
 import "./home.scss";
-import divider from "../../static/divider.png";
 import { Link } from "react-router-dom";
 import secure from "../../static/secure.png";
 import mission from "../../static/Mission-text.png";
