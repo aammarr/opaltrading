@@ -1,0 +1,100 @@
+.contact-title {
+  text-align: left;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  line-height: 100%;
+  color: rgb(7, 7, 135);
+}
+
+.contact-description {
+  color: red;
+  font-size: 16px;
+  padding-right: 60px;
+}
+
+.contact-title-second {
+  font-size: 30px;
+  color: blue;
+}
+
+.contact-form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.form-column {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-column:last-child {
+  margin-right: 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0px 0px 5px rgba(0, 119, 255, 0.5);
+}
+
+.submit-button {
+  background-color: rgb(3, 3, 232);
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  &:hover {
+    background-color: #0459ba;
+  }
+}
+
+.gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgb(231, 0, 0) 0%,
+    rgba(233, 2, 2, 0.7) 50%,
+    rgba(220, 4, 4, 0) 100%
+  );
+}
+
+.first-name,
+.last-name,
+.email,
+.number,
+.address,
+.message {
+  background-color: rgb(0, 0, 255, 0.1);
+  color: rgb(3, 3, 232);
+  &::placeholder {
+    color: rgb(3, 3, 232);
+  }
+}
