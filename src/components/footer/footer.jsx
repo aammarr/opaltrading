@@ -13,8 +13,13 @@ const Footer = () => {
             <div className="row justify-content-between pt-5 pb-5 pr-5">
               <div className="col-5">
                 <div className="left-column">
-                  <img src={Logo} alt="logo" style={{ width: "20%" }} />
-                  <div style={{ marginTop: "20px", color: "white" }}>
+                  <img src={Logo} alt="logo" style={{ width: "25%" }} />
+                  <div
+                    style={{
+                      marginTop: "20px",
+                      color: "white",
+                    }}
+                  >
                     {/* <div className="company-name"> Opal Trading DMCC</div>
                     <div className="name">Sabi Aggarwal</div> */}
                     {/* <div className="designation">Operations Manager</div> */}
