@@ -1,5 +1,5 @@
 .footer-main {
-  background-color: #3a3a3a;
+  background-color: #123d6a;
   margin-top: 30px;
   color: #a9a9a9;
 }
@@ -15,14 +15,14 @@
 
 .footer-navbar-item {
   margin: 15px;
-  margin-left: 0;
+  margin-right: 0;
   .nav-link-footer {
-    color: #a9a9a9;
-    font-family: "Open Sans";
+    color: black;
+    font-family: "Dudek";
     font-size: 17px;
-    padding: 6px 15px;
+    padding: 9px 18px;
     text-decoration: none;
-    background-color: #444;
+    background-color: #bbbbbb;
     &:hover {
       background-color: #ff0000;
       color: white;

@@ -26,7 +26,10 @@ const Contact = () => {
       <div className="container-lg">
         <div className="row">
           <div className="col-lg-6 pt-5 pb-5">
-            <div className="contact-title"> Contact Us</div>
+            <div className="contact-title">
+              {" "}
+              CONTACT <br /> US
+            </div>
             <div className="contact-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
               earum cum, minima omnis exercitationem quis molestias recusandae

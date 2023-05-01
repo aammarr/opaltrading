@@ -14,20 +14,20 @@ const Footer = () => {
               <div className="col-5">
                 <div className="left-column">
                   <img src={Logo} alt="logo" style={{ width: "20%" }} />
-                  <div>
-                    <div className="company-name"> Opal Trading DMCC</div>
-                    <div className="name">Sabi Aggarwal</div>
-                    <div className="designation">Operations Manager</div>
-                    509, Preatoni Tower (Dubai Star) Cluster L, Jumeirah Lake
-                    Towers, Dubai, UAE. <br /> <br /> M. +971 50759 6387 <br />{" "}
+                  <div style={{ marginTop: "20px", color: "white" }}>
+                    {/* <div className="company-name"> Opal Trading DMCC</div>
+                    <div className="name">Sabi Aggarwal</div> */}
+                    {/* <div className="designation">Operations Manager</div> */}
+                    509, Preatoni Tower (Dubai Star) Cluster L, <br />
+                    Jumeirah Lake Towers, Dubai, UAE. <br /> <br />
                     T. +971 4 4538831
                     <br />
-                    manager@opaltradingmcc.com
+                    info@opaltradingmcc.com
                   </div>
                 </div>
               </div>
-              <div className="col-5" style={{ paddingLeft: "45px" }}>
-                <div
+              <div className="col-5">
+                {/* <div
                   style={{
                     color: "white",
                     fontSize: "18px",
@@ -36,9 +36,9 @@ const Footer = () => {
                   }}
                 >
                   Site Map
-                </div>
+                </div> */}
                 <div>
-                  <ul className="nav justify-content-start">
+                  <ul className="nav justify-content-end">
                     <div className="footer-navbar-item">
                       <Link
                         className={
