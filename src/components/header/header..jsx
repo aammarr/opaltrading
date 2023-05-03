@@ -6,7 +6,6 @@ import Slider from "react-slick";
 
 const Header = () => {
   const location = useLocation();
-  console.log(location.pathname);
   const settings = {
     dots: true,
     infinite: true,
