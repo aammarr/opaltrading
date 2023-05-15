@@ -8,10 +8,13 @@
 }
 
 .about-description {
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin: 15px 0;
+  font-size: 18px;
   text-align: justify;
-  padding-right: 145px;
+  .goal-text {
+    color: #123d6b;
+    font-family: "Dudek Bold";
+  }
 }
 
 .about-description-new {
@@ -28,4 +31,17 @@
 .about-image {
   width: 100%;
   text-align: center;
+}
+
+.about-border {
+  border: 1px solid #123d6b8e;
+  margin: 30px 0;
+}
+
+.about-final-text {
+  font-size: 35px;
+  font-family: "Dudek Bold";
+  text-align: center;
+  padding: 0 90px;
+  color: #f4925c;
 }

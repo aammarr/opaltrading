@@ -2,7 +2,6 @@ import "./home.scss";
 import { Link } from "react-router-dom";
 import secure from "../../static/secure.png";
 import mission from "../../static/Mission-text.png";
-// import Recycling from "../../static/Recycling.mp4";
 
 const Home = () => {
   document.title = "Opal Trading";
@@ -18,8 +17,12 @@ const Home = () => {
               style={{ width: "80%", padding: "30px" }}
             />
           </div>
-          <div className="col-lg-6" style={{ backgroundColor: "gray" }}>
-            {/* <video src={Recycling} style={{ width: "100%" }} controls></video> */}
+          <div className="col-lg-6">
+            <video
+              src="https://www.dropbox.com/s/9svwtjjimv6ehn7/Renov8%20HD%20Teaser%20v15.mp4?dl=0"
+              style={{ width: "100%" }}
+              controls
+            ></video>
           </div>
         </div>
       </div>
