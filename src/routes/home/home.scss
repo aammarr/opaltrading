@@ -81,3 +81,61 @@
   padding: 0 40px;
   font-size: 17px;
 }
+
+.video-top-text {
+  color: #123d6a;
+  text-align: center;
+  font-family: "Dudek Bold";
+  padding: 0 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.products-title {
+  color: #123d6a;
+  padding: 30px 0;
+  text-align: center;
+  font-family: "Dudek Bold";
+  font-size: 35px;
+}
+
+.all-products {
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .product-main {
+    width: 22%;
+    .product-image {
+      width: 100%;
+    }
+    .product-title {
+      text-align: center;
+      margin: 10px 0;
+      font-family: "Dudek Bold";
+      color: #123d6a;
+      font-size: 18px;
+      padding: 0 25px;
+    }
+  }
+}
+
+.home-left-column {
+  padding-right: 10% !important;
+  font-family: "Dudek Bold";
+  text-transform: uppercase;
+
+  .left-title {
+    color: #123d6a;
+    font-size: 45px;
+  }
+  .left-description {
+    color: #f4925c;
+    font-size: 30px;
+  }
+  .left-border {
+    border: 1px solid #123d6a;
+    margin-top: 5px;
+    width: 90%;
+  }
+}
