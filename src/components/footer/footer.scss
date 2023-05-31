@@ -10,6 +10,13 @@
     color: white;
     padding: 25px 0;
     text-align: center;
+    a {
+      text-decoration: none;
+      color: rgb(187, 184, 184);
+      &:hover {
+        color: #ff0000;
+      }
+    }
   }
 }
 

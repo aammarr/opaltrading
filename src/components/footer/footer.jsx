@@ -88,7 +88,8 @@ const Footer = () => {
         </div>
         <div className="container-fluid footer-second">
           <div className="container-lg bottom-text">
-            Copyright © 2023 Opal Trading DMCC. All rights reserved.
+            Copyright © 2023 Opal Trading DMCC. All rights reserved. <br />
+            <a href="https://adateck.com">Designed and developed by ADATECK.</a>
           </div>
         </div>
       </div>
