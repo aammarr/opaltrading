@@ -6,6 +6,7 @@
   line-height: 100%;
   color: #123d6b;
   font-family: "Dudek Bold";
+  margin-top: 30px;
 }
 
 .contact-description {
@@ -114,5 +115,10 @@ textarea:focus {
   }
   .contact-title-second {
     text-align: center;
+  }
+}
+@media only screen and (max-width: 553px) {
+  .contact-title {
+    margin-top: 0;
   }
 }
