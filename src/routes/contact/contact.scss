@@ -99,3 +99,20 @@ textarea:focus {
     color: rgb(59, 55, 55);
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .contact-main {
+    text-align: center;
+    .contact-title {
+      text-align: center;
+      font-size: 40px;
+    }
+    .contact-description {
+      text-align: center;
+      padding-right: 0;
+    }
+  }
+  .contact-title-second {
+    text-align: center;
+  }
+}

@@ -26,13 +26,13 @@ const Header = () => {
       >
         <div className="container-lg">
           <div className="row align-items-center">
-            <div className="col-4">
+            <div className="col-lg-4 col-md-5 col-sm-12 main-header">
               <Link to="/">
                 <img src={Logo} alt="logo" className="logo" />
               </Link>
             </div>
-            <div className="col-8">
-              <ul className="nav justify-content-end">
+            <div className="col-lg-8 col-md-7 col-sm-12">
+              <ul className="nav navbar-header">
                 <div className="header-navbar-item">
                   <Link
                     className={

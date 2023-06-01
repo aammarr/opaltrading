@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="footer-full">
         <div className="container-fluid footer-main">
           <div className="container-lg">
-            <div className="row justify-content-between pt-5 pb-5 pr-5">
-              <div className="col-5">
+            <div className="row justify-content-between pt-5 pb-5 pr-5 main-footer">
+              <div className="col-lg-5 col-sm-12">
                 <div className="left-column">
                   <img src={Logo} alt="logo" style={{ width: "25%" }} />
                   <div
@@ -27,23 +27,13 @@ const Footer = () => {
                     Jumeirah Lake Towers, Dubai, UAE. <br /> <br />
                     T. +971 4 4538831
                     <br />
-                    info@opaltradingmcc.com
+                    info@opaltrading.ae
                   </div>
                 </div>
               </div>
-              <div className="col-5">
-                {/* <div
-                  style={{
-                    color: "white",
-                    fontSize: "18px",
-                    fontWeight: "bold",
-                    marginBottom: "15px",
-                  }}
-                >
-                  Site Map
-                </div> */}
+              <div className="col-lg-5 col-sm-12">
                 <div>
-                  <ul className="nav justify-content-end">
+                  <ul className="nav nav-footer-items">
                     <div className="footer-navbar-item">
                       <Link
                         className={

@@ -18,7 +18,7 @@ const Home = () => {
       <div className="check"></div>
       <div className="container-lg mb-5">
         <div className="row">
-          <div className="col-lg-6 home-left-column">
+          <div className="col-lg-6 col-md-6 home-left-column">
             {/* <img
               src={mission}
               alt=""
@@ -40,12 +40,12 @@ const Home = () => {
               Being environmentally aware and friendly{" "}
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-6">
             <div className="video-top-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente!
             </div>
             <video
-              src="https://www.dropbox.com/s/9svwtjjimv6ehn7/Renov8%20HD%20Teaser%20v15.mp4?dl=0"
+              src="http://opaltrading.ae/video/opal_trading_video.mp4"
               style={{ width: "100%" }}
               controls
             ></video>

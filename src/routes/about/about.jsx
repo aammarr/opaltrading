@@ -73,12 +73,11 @@ const About = () => {
         </div>
         <div className="about-border"></div>{" "}
         <div className="row">
-          <div className="col-lg-5">
+          <div className="col-lg-5 renov-image">
             <img
               src={RenovSix}
               alt="RenovImageSix"
-              width="60%"
-              style={{ marginBottom: "10px" }}
+              className="renov-image-main"
             />
             <div className="about-title">Our Goal</div>
             <div className="about-description">

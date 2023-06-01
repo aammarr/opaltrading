@@ -37,9 +37,8 @@ const Contact = () => {
     <div>
       <div className="container-lg">
         <div className="row">
-          <div className="col-lg-6 pt-5 pb-5">
+          <div className="col-lg-6 pt-5 pb-5 contact-main">
             <div className="contact-title">
-              {" "}
               CONTACT <br /> US
             </div>
             <div className="contact-description">

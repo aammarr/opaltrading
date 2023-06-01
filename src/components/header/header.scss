@@ -1,3 +1,6 @@
+.navbar-header {
+  justify-content: flex-end;
+}
 .header-navbar-item {
   margin: 10px;
   .nav-link {
@@ -26,4 +29,55 @@
 
 .logo {
   width: 100%;
+}
+
+.main-header {
+  .logo-text {
+    font-size: 37px;
+    font-family: "Dudek Bold";
+  }
+  a {
+    text-decoration: none;
+    color: #123d6a;
+    &:hover {
+      color: #226ab6;
+    }
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  .main-header {
+    text-align: center;
+    .logo {
+      width: 70%;
+      margin: 10px 0;
+    }
+  }
+  .navbar-header {
+    justify-content: center !important;
+
+    .header-navbar-item {
+      .nav-link {
+        color: black;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: bold;
+        padding: 5px 10px;
+        &:hover {
+          background-color: #d9271b;
+          color: white;
+          border-radius: 5px;
+        }
+      }
+      .active {
+        background-color: #d9271b;
+        color: white !important;
+        border-radius: 5px;
+      }
+    }
+  }
+  .header-slider-image {
+    width: 100%;
+    height: 400px;
+  }
 }
