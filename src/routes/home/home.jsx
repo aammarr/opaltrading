@@ -41,9 +41,9 @@ const Home = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-6">
-            <div className="video-top-text">
+            {/* <div className="video-top-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente!
-            </div>
+            </div> */}
             <video
               src="http://opaltrading.ae/video/opal_trading_video.mp4"
               style={{ width: "100%" }}
