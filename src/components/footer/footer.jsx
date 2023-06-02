@@ -25,9 +25,12 @@ const Footer = () => {
                     {/* <div className="designation">Operations Manager</div> */}
                     509, Preatoni Tower (Dubai Star) Cluster L, <br />
                     Jumeirah Lake Towers, Dubai, UAE. <br /> <br />
-                    T. +971 4 4538831
+                    <a href="tel:+97144538831"> T. +971 4 4538831</a>
                     <br />
-                    info@opaltrading.ae
+                    <a href="mailto:info@opaltrading.ae">
+                      {" "}
+                      info@opaltrading.ae
+                    </a>
                   </div>
                 </div>
               </div>

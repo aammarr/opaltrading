@@ -56,3 +56,13 @@
     justify-content: center;
   }
 }
+
+.left-column {
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: #ff0000;
+    }
+  }
+}

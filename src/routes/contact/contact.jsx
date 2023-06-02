@@ -1,5 +1,5 @@
 import "./contact.scss";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -7,9 +7,12 @@ import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
   const form = useRef();
   document.title = "Contact Us";
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
+
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -23,6 +26,8 @@ const Contact = () => {
             toast.success("Email Sent Successfully!", {
               position: toast.POSITION.TOP_RIGHT,
             });
+            setIsSubmitting(false);
+
             form.current.reset();
           }
         },
@@ -30,6 +35,7 @@ const Contact = () => {
           toast.error(error.text, {
             position: toast.POSITION.TOP_RIGHT,
           });
+          setIsSubmitting(false);
         }
       );
   };
@@ -122,8 +128,21 @@ const Contact = () => {
                 </div>
               </div>
               <div className="text-center">
-                <button className="submit-button" type="submit">
-                  Submit
+                <button
+                  className="submit-button"
+                  type="submit"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? (
+                    <div style={{ padding: "0 15px" }}>
+                      <div
+                        class="spinner-border spinner-border-sm"
+                        role="status"
+                      ></div>
+                    </div>
+                  ) : (
+                    "Submit"
+                  )}
                 </button>
               </div>
             </form>
