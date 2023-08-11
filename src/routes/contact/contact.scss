@@ -1,6 +1,6 @@
 .contact-title {
   text-align: left;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bolder;
   margin-bottom: 20px;
   line-height: 100%;
@@ -10,9 +10,10 @@
 }
 
 .contact-description {
-  font-size: 16px;
-  padding-right: 60px;
+  font-size: 20px;
+  padding-right: 20px;
   text-align: justify;
+  color: #f4925c;
 }
 
 .contact-title-second {
@@ -101,6 +102,12 @@ textarea:focus {
   }
 }
 
+.contact-image {
+  width: 90%;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 992px) {
   .contact-main {
     text-align: center;
@@ -111,9 +118,14 @@ textarea:focus {
     .contact-description {
       text-align: center;
       padding-right: 0;
+      font-size: 18px;
     }
   }
   .contact-title-second {
+    text-align: center;
+  }
+  .contact-image {
+    width: 50%;
     text-align: center;
   }
 }

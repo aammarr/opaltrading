@@ -43,20 +43,24 @@ const Contact = () => {
     <div>
       <div className="container-lg">
         <div className="row">
-          <div className="col-lg-6  pb-5 contact-main">
+          <div className="col-lg-3 col-md-6 col-sm-12  pb-5 contact-main">
             <div className="contact-title">
               CONTACT <br /> US
             </div>
             <div className="contact-description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,
               earum cum, minima omnis exercitationem quis molestias recusandae
-              illum natus maxime mollitia, est iste nesciunt amet! Facilis
-              fugiat quo voluptate consequuntur id nihil explicabo aspernatur
-              cumque, error porro a quisquam molestiae ex voluptatum, quod aut
-              aperiam dolore voluptates libero inventore nisi?
+              illum natus maxime mollitia, est iste nesciunt amet!
             </div>
           </div>
-          <div className="col-lg-6 p-3">
+          <div className="col-lg-3 col-md-6 col-sm-12 pt-3 text-center">
+            <img
+              src="images/contact-image.jpeg"
+              alt=""
+              className="contact-image"
+            />
+          </div>
+          <div className="col-lg-6 col-md-12 col-sm-12 p-3">
             <div className="contact-title-second">Get In Touch</div>
             <form ref={form} onSubmit={sendEmail}>
               <div className="form-row">

@@ -79,7 +79,7 @@
 .home-description {
   text-align: justify;
   padding: 0 40px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .video-top-text {
@@ -96,7 +96,7 @@
   padding: 30px 0;
   text-align: center;
   font-family: "Dudek Bold";
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .all-products {
@@ -122,22 +122,64 @@
 
 .home-left-column {
   padding-right: 10% !important;
-  font-family: "Dudek Bold";
-  text-transform: uppercase;
 
   .left-title {
-    color: #123d6a;
+    color: #f4925c;
+    position: relative;
     font-size: 45px;
+    border-top: 3px solid #f4925c;
+    margin-bottom: 25px;
+  }
+  .left-title::before {
+    content: "VISION";
+    position: absolute;
+    font-family: "Dudek Bold";
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 25px;
+    color: #f4925c;
+    font-size: 40px;
+  }
+  .left-title2 {
+    color: #f4925c;
+    position: relative;
+    font-size: 45px;
+    border-top: 3px solid #f4925c;
+    margin-bottom: 25px;
+  }
+  .left-title2::before {
+    content: "MISSION";
+    position: absolute;
+    font-family: "Dudek Bold";
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 0 25px;
+    color: #f4925c;
+    font-size: 40px;
   }
   .left-description {
-    color: #f4925c;
-    font-size: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    text-align: justify;
   }
   .left-border {
     border: 1px solid #123d6a;
     margin-top: 5px;
     width: 90%;
   }
+}
+
+.right-title {
+  padding-top: 15px;
+  font-size: 35px;
+  font-family: "Dudek Bold";
+  text-align: right;
+  color: #123d6a;
+  padding-right: 28px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -164,9 +206,6 @@
     .left-title {
       font-size: 35px;
     }
-    .left-description {
-      font-size: 24px;
-    }
   }
   .all-products {
     .product-main {
@@ -182,6 +221,33 @@
     color: #123d6a;
     font-size: 25px;
   }
+  .right-title {
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .left-description {
+    margin-bottom: 10px !important;
+  }
+}
+
+.product-heading {
+  color: #f4925c;
+  font-family: "Dudek Bold";
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.home-images {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.list-items {
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 553px) {
